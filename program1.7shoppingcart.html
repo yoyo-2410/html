@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shopping Cart</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+            border-style: double;
+        }
+
+        img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        p {
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body bgcolor="#eaf6f6">
+
+    <h2>Groceries</h2>
+
+    <div class="row">
+
+        <div class="column">
+            <img src="./gos1.jpg" alt="Grocery 1" style="width:100%">
+            <p>Price : Rs.100</p>
+            <input type="button" style="background-color:#c4c1e0;width:100%" value="Add to Cart">
+        </div>
+
+        <div class="column">
+            <img src="./gos2.jpg" alt="Grocery 2" style="width:100%">
+            <p>Price : Rs.100</p>
+            <input type="button" style="background-color:#c4c1e0;width:100%" value="Add to Cart">
+        </div>
+
+        <div class="column">
+            <img src="./gos3.jpg" alt="Grocery 3" style="width:100%">
+            <p>Price : Rs.100</p>
+            <input type="button" style="background-color:#c4c1e0;width:100%" value="Add to Cart">
+        </div>
+
+        <div class="column">
+            <img src="./gos4.jpg" alt="Grocery 4" style="width:100%">
+            <p>Price : Rs.100</p>
+            <input type="button" style="background-color:#c4c1e0;width:100%" value="Add to Cart">
+        </div>
+
+        <div class="column">
+            <img src="./gos5.jpg" alt="Grocery 5" style="width:100%">
+            <p>Price : Rs.100</p>
+            <input type="button" style="background-color:#c4c1e0;width:100%" value="Add to Cart">
+        </div>
+
+        <div class="column">
+            <img src="./gos6.jpg" alt="Grocery 6" style="width:100%">
+            <p>Price : Rs.100</p>
+            <input type="button" style="background-color:#c4c1e0;width:100%" value="Add to Cart">
+        </div>
+
+    </div>
+
+    <table width="100%" border="1px">
+
+        <thead>
+            <tr>
+                <th>S.no</th>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+
+        <tbody>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3" style="text-align:right">Total</td>
+                <td>₹</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <br>
+
+    <input type="button" value="Proceed to Purchase">
+
+</body>
+
+</html>
