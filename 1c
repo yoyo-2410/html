@@ -1,0 +1,53 @@
+<!-- home.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+
+    <h1>Welcome to the Home Page</h1>
+
+    <p>This example shows how to navigate between different webpages using hyperlinks.</p>
+
+    <a href="about.html">Go to About Page</a><br><br>
+    <a href="contact.html">Go to Contact Page</a>
+
+</body>
+</html>
+
+<!-- about.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Page</title>
+</head>
+<body>
+
+    <h1>About Us</h1>
+
+    <p>This is the About Page. It provides information about our website.</p>
+
+    <a href="home.html">Back to Home</a><br><br>
+    <a href="contact.html">Go to Contact Page</a>
+
+</body>
+</html>
+
+<!-- contact.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Page</title>
+</head>
+<body>
+
+    <h1>Contact Us</h1>
+
+    <p>You can reach us through this page.</p>
+
+    <a href="home.html">Back to Home</a><br><br>
+    <a href="about.html">Go to About Page</a>
+
+</body>
+</html>
