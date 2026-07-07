@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demonstration of Lists in HTML</title>
+</head>
+<body>
+
+    <h1>Demonstrating Different Types of Lists</h1>
+
+    <!-- Unordered List -->
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <h2>Ordered List</h2>
+    <ol>
+        <li>Step 1: Turn on the computer</li>
+        <li>Step 2: Open the browser</li>
+        <li>Step 3: Start coding</li>
+    </ol>
+
+    <!-- Nested List -->
+    <h2>Nested List</h2>
+    <ul>
+        <li>Fruits
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Orange</li>
+            </ul>
+        </li>
+        <li>Vegetables
+            <ul>
+                <li>Carrot</li>
+                <li>Broccoli</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- Definition List -->
+    <h2>Definition List</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language - used to create web pages.</dd>
+
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets - used to style web pages.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Programming language used to make web pages interactive.</dd>
+    </dl>
+
+</body>
+</html>
